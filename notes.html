@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notes Section</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+/* Back button */
+.top {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.back {
+    background: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* Cards */
+.card {
+    width: 260px;
+    padding: 25px;
+    margin: 15px;
+    background: white;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+</style>
+
+</head>
+<body>
+
+<!-- Back -->
+<div class="top">
+    <a href="dashboard.html" class="back">⬅ Back</a>
+</div>
+
+<h1>Notes Section</h1>
+
+<div class="container">
+
+    <!-- Previous Year Papers -->
+    <a href="pqy.html" class="card">
+        📄 Previous Year Papers
+    </a>
+
+    <!-- Notes -->
+    <a href="papers.html" class="card">
+        📘 Notes
+    </a>
+
+</div>
+
+</body>
+</html>

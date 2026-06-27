@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Select Board</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-top: 30px;
+}
+
+.top {
+    padding: 15px;
+    text-align: left;
+}
+.back {
+    background: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* Card design */
+.card {
+    width: 260px;
+    padding: 25px;
+    margin: 15px;
+    background: white;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none; /* underline हटाने के लिए */
+    color: black;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+</style>
+
+</head>
+<body>
+
+<div class="top">
+    <a href="dashboard.html"
+class="back">⬅ Back</a>    
+</div>    
+
+<h1>Select Board</h1>
+
+<div class="container">
+
+    <!-- CBSE -->
+    <a href="cbse.html" class="card">
+        📘 CBSE Board
+    </a>
+
+    <!-- JAC -->
+    <a href="jac.html" class="card">
+        📗 JAC Board
+    </a>
+
+</div>
+
+</body>
+</html>
